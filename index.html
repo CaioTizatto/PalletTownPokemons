@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon  verify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pallet Town Pokemons </h1>
+    </header>
+    <section>
+        <div id="inData">
+          <P>  Experience <input type="range" min="1" name="xp" max="3" id="xp"></P>
+            Type: <input type="radio" name="radpoke" id="fire" checked value=""> Fire <input type="radio" name="radpoke" id="water" value="">Water <input type="radio" name="radpoke" id="grass">Grass</p>
+            <button onclick="verify()">Verify</button> 
+        </div>
+        <div>
+            <p id="poke"></p>
+            <img class="hidden" id="pokepicture" src="#" alt="pokemon">
+        </div>
+    </section>
+    <footer>
+         <p>every lesson learned </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
